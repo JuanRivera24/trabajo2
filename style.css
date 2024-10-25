@@ -1,0 +1,61 @@
+/* El cuerpo de la página */
+body {
+    /* Fuente general */
+    font-family: sans-serif;
+    /* Sin margen */
+    margin: 0;
+}
+
+/* El contenedor de las tarjetas */
+.contenedor {
+    /* Diseño flexible */
+    display: flex;
+    /* Permitir que las tarjetas se envuelvan */
+    flex-wrap: wrap;
+    /* Espacio alrededor de las tarjetas */
+    justify-content: space-around;
+    /* Espacio interno */
+    padding: 20px;
+}
+
+/* Estilo de cada tarjeta */
+.tarjeta {
+    /* Ancho fijo de la tarjeta */
+    width: 300px;
+    /* Espacio alrededor de cada tarjeta */
+    margin: 10px;
+    /* Borde delgado */
+    border: 1px solid #ccc;
+    /* Espacio interno en la tarjeta */
+    padding: 20px;
+    /* Bordes redondeados */
+    border-radius: 5px;
+    /* Sombra en la tarjeta */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de la imagen de la tarjeta */
+.tarjeta img {
+    /* Imagen ocupa todo el ancho */
+    width: 100%;
+    /* Altura automática */
+    height: auto;
+    /* Imagen se muestra como un bloque */
+    display: block;
+    /* Bordes redondeados arriba */
+    border-radius: 5px 5px 0 0;
+}
+
+/* Estilo del título en la tarjeta h3*/
+.tarjeta h3 {
+    /* Margen superior del título */
+    margin-top: 10px;
+}
+
+/* Estilo del texto en la tarjeta p*/
+.tarjeta p {
+    /* Tamaño de fuente del texto */
+    font-size: 0.9em;
+    /* Altura de línea */
+    line-height: 1.5;
+}
